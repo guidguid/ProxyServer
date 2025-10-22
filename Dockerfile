@@ -17,8 +17,8 @@ COPY --from=build /out .
 EXPOSE 8080
 
 # Set environment variables for authentication
-ENV PROXY_USERNAME=admin
-ENV PROXY_PASSWORD=admin
+ENV PROXY_USERNAME=ccp
+ENV PROXY_PASSWORD=Cnglgb@8964
 
 # Run the proxy server
 CMD ["dotnet", "ProxyServer.dll"]
